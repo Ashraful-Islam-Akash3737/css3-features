@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Overflow</title>
+
+    <style>
+        .box{
+            width: 500px;
+            height: 200px;
+            border: 3px solid  steelblue;
+            
+            
+            overflow:auto;
+            overflow-x: hidden;
+        }
+        
+        .ellipsis{
+            width: 200px;
+            border: 3px solid  steelblue;
+            overflow:hidden;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+            position: relative;
+            
+        }
+        .akash{
+            background-image:radial-gradient(red 30%, blue 10% , green 10% ) ;
+            width: 350px;
+            border: 3px solid  steelblue;
+            height: 200px;
+            position: absolute;
+            left: 700px;
+            top: 300px;
+        }
+        
+       
+    </style>
+</head>
+<body>
+    <header>
+        <p title="i am a serious studtnt who want to be a software engineer. Its my long charished dream" class="ellipsis">
+            i am a serious studtnt who want to be a software engineer. Its my long charished dream
+        </p>
+    </header>
+    <div class="box" id="box-1">
+        <h3>My Text Box-1</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi dicta obcaecati iste dolore, reprehenderit non tempore libero illum officiis veritatis temporibus ab quod nulla debitis nam officia repudiandae laudantium sunt. Earum architecto quis ea illum, odio adipisci. Modi atque ut facilis culpa, corporis sint earum illo sit tenetur voluptatibus numquam ducimus optio adipisci, nobis commodi architecto at exercitationem necessitatibus quaerat tempora eligendi ipsum impedit molestias iusto. Officia error autem culpa voluptates corporis cumque reiciendis quo accusamus modi hic sunt quia est totam ut sequi magni, maiores ratione? Id blanditiis reiciendis maiores nam assumenda nemo hic laboriosam, incidunt repellendus dolorem ut.</p>
+    </div>
+    <div class="box">
+        <h3>My Text Box-2</h3>
+        <p>Mollitia perferendis, quaerat, possimus neque sit dicta asperiores molestias nesciunt odit, dolorem accusamus. Assumenda eos ut similique consequuntur, quos nemo, debitis consectetur, veritatis minus corporis earum voluptate vel minima error. Mollitia pariatur voluptate non nam consectetur, ut qui temporibus rerum aspernatur asperiores quod provident placeat eaque neque expedita dicta odit inventore ab sunt sed, veniam quisquam? Animi, vitae nemo! Sapiente veritatis non quis reprehenderit voluptas perferendis sequi id ut cum, nostrum ullam soluta praesentium sint eveniet laudantium obcaecati ratione. At hic alias dolores animi, repudiandae doloribus rem quidem odio maiores sed officiis facilis aut inventore ea labore. Ullam, fugit deserunt.</p>
+    </div>
+    <div class="box" id="box-1">
+        <h3>My Text Box-1</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi dicta obcaecati iste dolore, reprehenderit non tempore
+        </p>
+    </div>
+    <div title="I love my bangla" class="akash">
+        
+    </div>
+</body>
+</html>
